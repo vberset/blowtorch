@@ -1,0 +1,9 @@
+[package]
+name = "blowtorch"
+version = "0.1.0"
+authors = ["Vincent Berset <vberset@protonmail.ch>"]
+
+[dependencies]
+clap = "2.24.1"
+indicatif = "0.5.0"
+acetylene = { version = '^0.1', git = 'https://github.com/vberset/acetylene' }
